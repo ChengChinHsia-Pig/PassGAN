@@ -18,7 +18,8 @@ PassGAN is trained on a comprehensive dataset totaling 9GB, which includes:
 - Publicly leaked passwords
 - Personally collected passwords
 - Telephone numbers
-Or you can use only the `rockyou` dataset, only 133MB.
+
+Or you can just use the `rockyou` dataset, only 133MB.
 
 ## Contributions
 Contributions from the community are welcome and encouraged, whether it's in the form of raising issues, submitting pull requests, or providing feedback.
