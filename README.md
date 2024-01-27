@@ -13,7 +13,7 @@ This repository contains code for the [_PassGAN: A Deep Learning Approach for Pa
 - **100 million**
 
 ## Dataset
-PassGAN is trained on a comprehensive dataset totaling 9GB, which includes:
+PassGAN is trained on a comprehensive dataset totaling 8GB, which includes:
 - The `rockyou` dataset
 - Publicly leaked passwords
 - Personally collected passwords
