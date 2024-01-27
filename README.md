@@ -1,5 +1,6 @@
 # PassGAN
-PassGAN:A Human-like Password Generation with GANs.\n
+PassGAN:A Human-like Password Generation with GANs.
+
 This repository contains code for the [_PassGAN: A Deep Learning Approach for Password Guessing_](https://arxiv.org/abs/1709.00440) paper. 
 
 ## Author
@@ -17,6 +18,7 @@ PassGAN is trained on a comprehensive dataset totaling 9GB, which includes:
 - Publicly leaked passwords
 - Personally collected passwords
 - Telephone numbers
+Or you can use only the `rockyou` dataset, only 133MB.
 
 ## Contributions
 Contributions from the community are welcome and encouraged, whether it's in the form of raising issues, submitting pull requests, or providing feedback.
