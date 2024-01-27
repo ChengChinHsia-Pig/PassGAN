@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 
-# 1億
+# 100 million
 
 class Generator(nn.Module):
     def __init__(self, password_length):
