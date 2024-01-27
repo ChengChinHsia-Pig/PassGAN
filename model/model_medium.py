@@ -1,13 +1,13 @@
 import torch
 import torch.nn as nn
 
-# 5000萬
+# 50 million
 
 class Generator(nn.Module):
     def __init__(self, password_length):
         super(Generator, self).__init__()
         self.main = nn.Sequential(
-            nn.Linear(100, 2048),  # 增加神经元数量
+            nn.Linear(100, 2048),
             nn.LeakyReLU(0.2, inplace=True),
             nn.BatchNorm1d(2048),
             nn.Linear(2048, 4096),
@@ -16,7 +16,7 @@ class Generator(nn.Module):
             nn.Linear(4096, 8192),
             nn.LeakyReLU(0.2, inplace=True),
             nn.BatchNorm1d(8192),
-            nn.Linear(8192, 16384),  # 增加神经元数量
+            nn.Linear(8192, 16384),
             nn.LeakyReLU(0.2, inplace=True),
             nn.BatchNorm1d(16384),
             nn.Linear(16384, password_length)
